@@ -6,9 +6,6 @@
                  $horario = date_sunset(time(), SUNFUNCS_RET_TIMESTAMP, -23.521182, -46.628938, $zenith = ini_get("date.sunset_zenith"), -3);
                  return date('H:i',$horario);
         }
-
-
-
             // verifica fechamento Sábado
         function fechaLoja()
         {
@@ -39,9 +36,6 @@
             return $fechado;
             //return true;
         }
-
-
-
                 // retorna o horario do por do sol
 
 
@@ -53,12 +47,7 @@
             //echo "Loja Fechada";
         }
 
-
-
     fechaLoja();
-
-
-
 
  ?>
 <!DOCTYPE html>
@@ -140,10 +129,6 @@
                          <li><a href="verificar.php" target="new_blank">Verificar Inscrição</a></li>
                          </ul>
 					</li>
-
-
-
-
 					
 					<li class="has-dropdown"><a href="#blog">Mais</a>
 						<ul class="dropdown">
@@ -153,19 +138,13 @@
 					</li>
 				</ul>
 				<!-- /Main navigation -->
-
-
 			</div>
 		</nav>
 		<!-- /Nav -->
 
 	</header>
 	<!-- /Header -->
-
-
 <?php
-
-
             $documento = trim(@$_POST['documento']);
             $documento1 = '';
             require('conectdb.php');
@@ -240,9 +219,6 @@
 										{
 											 echo " <p>Pagamento Realizado: <b>$pago</b></p>";
 										}
-
-
-
 								
 				echo'
 									</div>
@@ -253,17 +229,10 @@
 			}
 
 
-            
-
    //         if($documento  != $eventos->documento){
         //    	echo "Seu documento não foi encontrado em nosso sistema, faça a inscricao";
         //    }
 ?>
-
-
-
-
-
 
 
 	<!-- Contact -->
@@ -280,9 +249,6 @@
 
 
 				<div class="section-header text-left">
-	
-
-					
 
 				</div>
 
@@ -291,16 +257,10 @@
 			   <div class="section-header text-left">
 
 				<div class="section-header text-left">
-	
-
-					
 
 				</div>
 
 			   </div>
-
-
-
 					<!-- contact -->
 				<div class="col-sm-4">
 					<div class="contact">
@@ -330,9 +290,6 @@
 					</div>
 				</div>
 				<!-- /contact -->
-
-
- 
 
 			
 

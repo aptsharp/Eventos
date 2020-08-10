@@ -2,8 +2,7 @@ enfermagem<?php
 
 
 // conexao com o banco de dados = servidor, usuario, senha e banco
-<?php
- 
+<?php 
 class Conexao
 {
     private static $connection;
@@ -29,6 +28,4 @@ class Conexao
         }
     }
 }
-
-
 ?>

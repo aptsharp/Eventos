@@ -6,9 +6,6 @@
                  $horario = date_sunset(time(), SUNFUNCS_RET_TIMESTAMP, -23.521182, -46.628938, $zenith = ini_get("date.sunset_zenith"), -3);
                  return date('H:i',$horario);
         }
-
-
-
             // verifica fechamento Sábado
         function fechaLoja()
         {
@@ -39,11 +36,7 @@
             return $fechado;
             //return true;
         }
-
-
-
                 // retorna o horario do por do sol
-
 
             if(fechaLoja())
         {
@@ -53,12 +46,7 @@
             //echo "Loja Fechada";
         }
 
-
-
     fechaLoja();
-
-
-
 
  ?>
 
@@ -136,10 +124,6 @@
     </header>
     <!-- /Header -->
 
-
-
-
-
     <!-- Contact -->
     <div id="#inscricao" class="section md-padding">
 
@@ -194,26 +178,10 @@
 
                 echo "<form method='post' action='https://cieloecommerce.cielo.com.br/transactionalvnext/order/buynow' target='blank'><input type='hidden' name='id' value='06b12b0d-b52d-419d-82e5-202fbcc30076' /><input type='image' name='submit' alt='Comprar' src='https://cieloecommerce.cielo.com.br/backoffice/Content/img/buttons/button-5-1.png' /></form>";              
                 }
-
-           
-
-            
-  
-
-            
-
-
-
-
-
-    
-
      ?>
                 
 
                 <br></br><br></br><br></br>
-
-
 
                     <!-- contact -->
                 <div class="col-sm-4">
@@ -244,10 +212,6 @@
                     </div>
                 </div>
                 <!-- /contact -->
-
-
- 
-
             
 
             </div>
